@@ -11,3 +11,6 @@
 ## 运行方式
 ```bash
 docker-compose up -d --build
+## Future Plan
+- Add backend service (Flask / Node.js)
+- Implement API endpoints
