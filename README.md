@@ -1,16 +1,27 @@
-# Docker Web Demo
+# Docker Web Deployment Demo
+
+## Overview
+This project demonstrates containerized deployment of a static website using Docker and Nginx.
 
 ## 项目介绍
-使用 Docker + Nginx 部署静态网页，实现容器化运行。
+该项目用于演示如何使用 Docker 和 Nginx 部署静态网页，实现快速启动与运行。
+
+---
+
+## Tech Stack
+- Docker
+- Docker Compose
+- Nginx
+- Linux
 
 ## 技术栈
 - Docker
 - Docker Compose
 - Nginx
+- Linux
 
-## 运行方式
+---
+
+## Run
 ```bash
 docker-compose up -d --build
-## Future Plan
-- Add backend service (Flask / Node.js)
-- Implement API endpoints
